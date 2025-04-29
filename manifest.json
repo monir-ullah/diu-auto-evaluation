@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Teacher Evaluation",
+  "version": "1.0",
+  "description": "Automatically fill teacher evaluation forms with preferred options and comments.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Auto Evaluation"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"]
+}
